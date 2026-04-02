@@ -14,3 +14,6 @@ echo "<br>";
 echo $maths->sum(30, 30);
 echo "<br>";
 echo $maths->sum(50, 30);
+$maths1 = new MathsOperation();
+echo "<br>";
+echo $maths1->sum(1000, 200);
