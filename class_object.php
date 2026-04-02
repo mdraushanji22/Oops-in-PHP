@@ -2,11 +2,11 @@
 class MathsOperation
 {
 
-    function sum()
+    function sum($a, $b)
     {
 
-        return 10 + 20;
+        return $a + $b;
     }
 }
 $maths = new MathsOperation();
-echo $maths->sum();
+echo $maths->sum(20, 30);
