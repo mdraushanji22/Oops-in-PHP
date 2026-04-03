@@ -3,12 +3,12 @@
 class Constructor
 {
 
-    public $name = "Jilani";
+    public $name;
 
-    function __construct()
+    function __construct($name)
     {
 
-        echo $this->name;
+        echo $this->name = $name;
     }
 }
-$cd = new Constructor();
+$cd = new Constructor("Hey, Raushan How are you");
