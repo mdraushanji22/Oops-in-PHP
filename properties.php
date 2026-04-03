@@ -7,12 +7,12 @@ class Properties
     {
         return $this->name;
     }
-    function updateName()
+    function updateName($name)
     {
-        $this->name = "Md Raushan Jilani";
+        $this->name = $name;
     }
 }
 $p1 = new Properties();
 // echo $p1->name;
-echo $p1->updateName();
+echo $p1->updateName("Raushan Bhai Delhi");
 echo $p1->getName();
