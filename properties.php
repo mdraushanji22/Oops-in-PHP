@@ -1,8 +1,12 @@
 <?php
 class Properties
 {
+    public $name = "Raushan Jilani";
 
-    public $name = "Raushan";
+    function getName()
+    {
+        return $this->name;
+    }
 }
 $p1 = new Properties();
-echo $p1->name;
+echo $p1->getName();
