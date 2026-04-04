@@ -2,6 +2,7 @@
 <html>
 
 <body>
+    <h1>Forms in PHP</h1>
     <form method="post" action="">
         <input type="text" name="username" placeholder="Enter Username" />
         <br><br>
