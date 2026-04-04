@@ -4,23 +4,36 @@
 <body>
     <form method="post" action="">
         <input type="text" name="username" placeholder="Enter Username" />
-        <br>
-        <br>
+        <br><br>
         <input type="password" name="password" placeholder="Enter password" />
-        <br>
-        <br>
+        <br><br>
         <input type="submit" value="Submit" />
     </form>
+
     <br>
+
     <?php
-    echo "UserName is:" . $_POST['username'];
-    echo "<br>";
-    echo "<br>";
-    echo "Password is:" . $_POST['password'];
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
+        $username = $_POST['username'];
+        $password = $_POST['password'];
 
+        // 🔥 Set Cookies (valid for 1 hour)
+        setcookie("username", $username, time() + 3600);
+        setcookie("password", $password, time() + 3600);
 
+        echo "Cookies stored successfully!";
+    }
+
+    // 🔥 Show Cookies Data
+    if (isset($_COOKIE['username']) && isset($_COOKIE['password'])) {
+        echo "<br><br>";
+        echo "Username from cookie: " . $_COOKIE['username'];
+        echo "<br><br>";
+        echo "Password from cookie: " . $_COOKIE['password'];
+    }
     ?>
+
 </body>
 
 </html>
