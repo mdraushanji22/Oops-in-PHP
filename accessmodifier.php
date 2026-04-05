@@ -4,13 +4,18 @@ class AccessMod
     private function questionPaper()
     {
 
-        echo "questions paper for students";
+        // echo "questions paper for students";
+        return "Raushan Important";
     }
 
     function exam()
     {
-        $this->questionPaper();
+        if ($this->questionPaper() == "Raushan Important") {
+            echo "Do something";
+        } else {
+            echo "Do else";
+        }
     }
 }
 $q1 = new AccessMod();
-$q1->exam();
+echo $q1->exam();
