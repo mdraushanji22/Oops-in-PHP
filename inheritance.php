@@ -16,3 +16,4 @@ class Students extends UserAuth
     }
 }
 $s1 = new Students();
+$s1->getName();
