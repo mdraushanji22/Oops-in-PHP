@@ -12,8 +12,18 @@ class Students extends UserAuth
 {
     function getName()
     {
-        echo "student login";
+        echo "Raushan";
+    }
+}
+class Teacher extends UserAuth
+{
+    function getSkill()
+    {
+        echo "DSA";
     }
 }
 $s1 = new Students();
 $s1->getName();
+echo "<br>";
+$t1 = new Teacher();
+$t1->getSkill();
