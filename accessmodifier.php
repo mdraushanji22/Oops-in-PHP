@@ -5,13 +5,13 @@ class AccessMod
     {
 
         // echo "questions paper for students";
-        return "Raushan Important";
+        return "Raushan Important looking for a job";
     }
 
     function exam()
     {
-        if ($this->questionPaper() == "Raushan Important") {
-            echo "Do something";
+        if ($this->questionPaper() == "Raushan Important looking for a job") {
+            echo "Do something is here";
         } else {
             echo "Do else";
         }
