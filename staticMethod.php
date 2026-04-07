@@ -15,4 +15,6 @@ class greeting
 // Call static method directly
 greeting::welcome();
 echo "<br>";
+echo "<br>";
+
 greeting::getName("Md Raushan Jilani");
