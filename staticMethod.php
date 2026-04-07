@@ -12,13 +12,13 @@ class greeting
     }
     public static function age()
     {
-        echo "24";
+        echo "My Age is: 24";
     }
 }
 
 // Call static method directly
 greeting::welcome();
 echo "<br>";
-echo "<br>";
 greeting::getName("Md Raushan Jilani");
+echo "<br>";
 greeting::age();
