@@ -10,11 +10,15 @@ class greeting
     {
         echo $name;
     }
+    public static function age()
+    {
+        echo "24";
+    }
 }
 
 // Call static method directly
 greeting::welcome();
 echo "<br>";
 echo "<br>";
-
 greeting::getName("Md Raushan Jilani");
+greeting::age();
