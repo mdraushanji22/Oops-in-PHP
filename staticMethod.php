@@ -10,6 +10,10 @@ class greeting
     {
         echo $name;
     }
+    public static function getUser($user)
+    {
+        echo $user;
+    }
     public static function age()
     {
         echo "My Age is: 24";
@@ -21,4 +25,8 @@ greeting::welcome();
 echo "<br>";
 greeting::getName("Md Raushan Jilani");
 echo "<br>";
+greeting::getUser("mdraushanjilani");
+
+echo "<br>";
+
 greeting::age();
