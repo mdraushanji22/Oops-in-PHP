@@ -22,7 +22,7 @@
 
     // Create an object named $apple from the Fruit class
     $apple = new Fruit();
-    $apple->set_details('Apple', 'Red');
+    $apple->set_details('Apple', 'Red', 'All in Oops for PHP');
     $apple->get_details();
 
     // Create an object named $banana from the Fruit class
