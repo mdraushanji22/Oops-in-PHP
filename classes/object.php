@@ -4,6 +4,7 @@
 <body>
 
     <h1>Oops in PHP</h1>
+    <h2>Oops in PHP is very important topic and mostly used in PHP framwork like Laravel</h2>
 
     <?php
     class Fruit
