@@ -6,6 +6,8 @@
     <form method="post" action="">
         <input type="text" name="username" placeholder="Enter Username" />
         <br><br>
+        <input type="email" name="email" placeholder="Enter Email" />
+        <br><br>
         <input type="password" name="password" placeholder="Enter password" />
         <br><br>
         <input type="submit" value="Submit" />
