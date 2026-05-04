@@ -19,10 +19,12 @@
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         $username = $_POST['username'];
+        $email = $_POST['email'];
         $password = $_POST['password'];
 
         // 🔥 Set Cookies (valid for 1 hour)
         setcookie("username", $username, time() + 3600);
+        setcookie("email", $email, time() + 3600);
         setcookie("password", $password, time() + 3600);
 
         echo "Cookies stored successfully!";
