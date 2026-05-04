@@ -35,6 +35,8 @@
         echo "<br><br>";
         echo "Username from cookie: " . $_COOKIE['username'];
         echo "<br><br>";
+        echo "Email from cookie: " . $_COOKIE['eamil'];
+        echo "<br><br>";
         echo "Password from cookie: " . $_COOKIE['password'];
     }
     ?>
