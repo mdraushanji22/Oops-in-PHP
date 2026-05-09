@@ -2,7 +2,7 @@
 <html>
 
 <body>
-    <h1>Forms in PHP</h1>
+    <h1>Please feel free to submit form</h1>
     <form method="post" action="">
         <input type="text" name="username" placeholder="Enter Username" />
         <br><br>
