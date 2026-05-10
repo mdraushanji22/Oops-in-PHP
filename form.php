@@ -11,6 +11,9 @@
         <input type="password" name="password" placeholder="Enter password" />
         <br><br>
         <input type="submit" value="Submit" />
+        <br><br>
+        <input type="checkbox" />
+
     </form>
 
     <br>
