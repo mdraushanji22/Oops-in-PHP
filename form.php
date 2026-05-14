@@ -6,8 +6,7 @@
     <h1>Create an Account</h1>
     <h2>This is form submission form</h2>
     <h3>User Data store in MySQL Database</h3>
-
-
+    <h3>Username and eamil id store in mysQL Database</h3>
     <form method="post" action="">
         <input type="text" name="username" placeholder="Enter Username" />
         <br><br>
