@@ -6,3 +6,4 @@ OOPS- Object oriented programming systems
 ## PHP Frameworks - Laravel and codeigniter 
 Oops in PHP is very important topic.
 ## Laravel used in used build full stack website 
+## PHP is a server side scripting language 
